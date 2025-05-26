@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,6 @@ body {
   max-width: 1200px;
 }
 
-/* Header */
 header {
   background: #333;
   color: #fff;
@@ -29,7 +28,6 @@ header .container {
   justify-content: space-between;
 }
 
-/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -42,7 +40,6 @@ header .container {
   object-fit: contain;
 }
 
-/* Navigation */
 .nav-links {
   list-style: none;
   display: flex;
@@ -59,7 +56,6 @@ header .container {
   color: #f39c12;
 }
 
-/* Hero Section */
 .hero {
   background: #f4f4f4;
   padding: 4rem 1rem;
@@ -89,7 +85,6 @@ header .container {
   background: #f39c12;
 }
 
-/* Footer */
 footer {
   background: #333;
   color: #fff;
@@ -111,7 +106,6 @@ footer .social a:hover {
   color: #f39c12;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
